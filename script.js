@@ -7,7 +7,7 @@ function lihatDetail(tempat) {
     // MASJID 99 KUBAH
     if (tempat === "masjid") {
         judul = "Masjid 99 Kubah 🕌";
-        gambar = "images/Masjid99Kubah.jpg";
+        gambar = "Masjid99Kubah.jpg";
 
         deskripsi =
             "Masjid 99 Kubah merupakan salah satu ikon wisata religi " +
@@ -34,7 +34,7 @@ function lihatDetail(tempat) {
     // PANTAI LOSARI
     if (tempat === "losari") {
         judul = "Pantai Losari 🏖️";
-        gambar = "images/PantaiLosari.jpg";
+        gambar = "PantaiLosari.jpg";
 
         deskripsi =
             "Pantai Losari merupakan salah satu ikon wisata terkenal " +
@@ -57,7 +57,7 @@ function lihatDetail(tempat) {
     // KAPAL PINISI
     if (tempat === "kapalpinisi") {
         judul = "Kapal Pinisi ⛵";
-        gambar = "images/KapalPinisi.jpg";
+        gambar = "KapalPinisi.jpg";
 
         deskripsi =
             "Wisata Kapal Pinisi merupakan salah satu wisata bahari " +
@@ -83,7 +83,7 @@ function lihatDetail(tempat) {
     // BENTENG ROTTERDAM
     if (tempat === "Benteng") {
         judul = "Benteng Rotterdam";
-        gambar = "images/BentengRotterdam.jpg";
+        gambar = "BentengRotterdam.jpg";
 
         deskripsi =
             "Benteng Rotterdam merupakan salah satu bangunan bersejarah " +
