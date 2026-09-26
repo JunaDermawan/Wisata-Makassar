@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #F26735, #111);
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+header p {
+    font-size: 16px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+
+/* CONTENT */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+
+
+/* BAGIAN DESTINASI */
+main h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  background: #f5f7fb;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  max-width: 620px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+/* CARD CONTAINER */
+.wisata-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+/* STRUKTUR CARD */
+.wisata-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+
+.wisata-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* GAMBAR DALAM KOTAK */
+.wisata-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* JUDUL DALAM KOTAK */
+.wisata-card h3 {
+    padding: 15px 15px 5px;
+}
+
+
+/* PARAGRAF DALAM BUTTOM */
+.wisata-card p {
+    padding: 0 15px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* BUTTOM DETAIL LIHAT */
+.wisata-card button {
+    margin: 15px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #F26735;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.wisata-card button:hover {
+    background: #F26735;
+}
+
+
+/* TEMUKAN TEMPAT WISATA */
+.deskripsi {
+  background: #A63004;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  max-width: 620px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1)
+}
+
+
+/* Popup Detail Wisata */
+.detail-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Kotak popup */
+.detail-box {
+    background: white;
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+/* Foto */
+.detail-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Judul */
+.detail-box h2 {
+    margin: 25px auto 5px;
+    text-shadow: 1px 1px 3px;
+    padding: 10px 25px;
+}
+
+
+/* Deskripsi */
+.detail-box p {
+    line-height: 1.8;
+    white-space: pre-line;
+    margin-bottom: 30px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Tombol Tutup */
+.tutup-detail {
+    display: block;
+    margin: 25px auto 5px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #F26733;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5)
+}
